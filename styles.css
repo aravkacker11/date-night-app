@@ -1,38 +1,98 @@
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #fef6f9;
-  color: #333;
-  text-align: center;
-  padding: 1em;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom, #fff0f5, #ffe4e1);
+  color: #444;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
 }
 nav {
-  background: #ffe0f0;
+  width: 100%;
+  background-color: #ffb6c1;
+  color: white;
   padding: 1em;
-  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+h2 {
+  margin: 1em 0 0.5em;
+  color: #d6336c;
+}
+.home-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
 }
 .home-options a {
   display: block;
-  margin: 1em auto;
-  background: #ffd6e0;
-  padding: 1em;
-  border-radius: 10px;
+  background-color: #ffccd5;
+  color: #5e233c;
   text-decoration: none;
-  width: 60%;
+  margin: 1em;
+  padding: 1.2em 2em;
+  border-radius: 15px;
+  font-size: 1.2em;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
+.home-options a:hover {
+  background-color: #ffa6b8;
+  transform: scale(1.05);
 }
 canvas {
-  border: 2px solid #ccc;
-  background: #fff;
-}
-textarea {
-  width: 80%;
-  height: 200px;
-  margin: 1em auto;
-  display: block;
+  background-color: white;
+  border: 3px dashed #fa9cb0;
+  border-radius: 10px;
+  margin: 1em 0;
+  box-shadow: 0 0 10px rgba(255,192,203,0.3);
 }
 button {
-  margin: 1em;
-  padding: 0.5em 1em;
-  background: #ffb3c1;
+  background-color: #ffadc3;
+  color: #fff;
+  padding: 0.7em 1.5em;
+  margin: 0.5em;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
+button:hover {
+  background-color: #fc91ae;
+}
+textarea {
+  width: 90%;
+  max-width: 600px;
+  height: 200px;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid #ffa6b8;
+  background: #fffafc;
+  box-shadow: 0 4px 8px rgba(255,182,193,0.2);
+  margin-bottom: 1em;
+  font-size: 1em;
+  resize: vertical;
+}
+iframe {
+  border: none;
+  border-radius: 15px;
+  margin-top: 1em;
+  max-width: 90%;
+}
+
