@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fef6f9;
+  color: #333;
+  text-align: center;
+  padding: 1em;
+}
+nav {
+  background: #ffe0f0;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.home-options a {
+  display: block;
+  margin: 1em auto;
+  background: #ffd6e0;
+  padding: 1em;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 60%;
+}
+canvas {
+  border: 2px solid #ccc;
+  background: #fff;
+}
+textarea {
+  width: 80%;
+  height: 200px;
+  margin: 1em auto;
+  display: block;
+}
+button {
+  margin: 1em;
+  padding: 0.5em 1em;
+  background: #ffb3c1;
+  border: none;
+  border-radius: 5px;
+}
