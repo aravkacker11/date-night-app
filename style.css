@@ -96,3 +96,47 @@ iframe {
   max-width: 90%;
 }
 
+.todo-container {
+  margin: 2em auto;
+  max-width: 500px;
+}
+.todo-container input {
+  padding: 0.5em;
+  width: 70%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.todo-container button {
+  padding: 0.5em 1em;
+  margin-left: 0.5em;
+}
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+#taskList li {
+  padding: 0.5em;
+  margin: 0.3em 0;
+  background-color: #fff0f5;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#taskList li.done {
+  text-decoration: line-through;
+  background-color: #e3e3e3;
+}
+
+.clocks {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 2em;
+}
+.clocks div {
+  background: #ffe0f0;
+  padding: 1em;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
